@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Teko');
+* {
+    font-family: "Teko", sans-serif;
+}
+
+#wrapper {
+    margin: auto;
+    width: 848px;
+}
+
+.title {
+    font-family: "Teko", sans-serif;
+    font-size: 45px;
+    color: #333;
+    margin: 0;
+}
+
+.bar {
+    width: 95px;
+    height: 5px;
+    background-color: #333;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    width: 848px;
+}
+
+img {
+    height: 250px;
+}
+
+[id^="img0"] {
+    display: inline-block;
+    position: relative;
+    margin: 0 16px 40px 16px;
+    height: 250px;
+}
+
+.coder-name {
+    font-size: 22px;
+    color: #FFF;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+}
